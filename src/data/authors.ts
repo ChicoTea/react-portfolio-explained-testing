@@ -64,17 +64,17 @@ export interface Author {
 
 const author1 = {
   palette: {
-    primary: '#3f51a5',
+    primary: '#fe2c54',
     secondary: '#f50057',
     mode: 'dark',
   },
   name: {
-    first: 'John',
-    last: 'Doe',
-    title: 'Software Developer',
+    first: 'Katherine',
+    last: 'Chicoteau',
+    title: 'Instructional Designer',
   },
   biography: '',
-  email: 'johndoedoe@someemail.com',
+  email: 'k.chicoteau.id@gmail.com',
   portfolioArticles: {
     id: 'author1',
     articles: author1PortfolioArticles as any as Record<
@@ -91,7 +91,7 @@ const author1 = {
       },
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nisl nisl si',
-      title: 'Software Engineer',
+      title: 'My experience 1',
       subTitle: 'Some Company',
     },
     {
