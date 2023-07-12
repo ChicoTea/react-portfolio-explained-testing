@@ -164,23 +164,24 @@ The project should be yours now.
 
 ##### How the styling/CSS works
 
+TODO:
 - Explain `@emotion/react`, cssprop, styled() and theming
   - Theming options pros/cons:
     - Css variables
     - theme provider
 
 ##### How state management/mobx works
-
+TODO:
 - Explain mobx tree, hooks, rendering overview
 
 
 ##### How data driven state works
-
+TODO:
 - Explain author data in detail
 
 
 ##### How tooling & bundle works
-
+TODO:
 - Explain vite, github actions, github pages
 - Explain linter, tsconfig, packagejson deps justification, pnpm
 
