@@ -1,6 +1,6 @@
 ---
-title: A thing I made
-description: Produced a thing for a company using special tech and data
+title: Gathertown for Girl Guides
+description: Designed an online meeting room for Girl Guides during the COVID-19 pandemic.
 image: ./author1/portfolio/Post1/main.jpg
 ---
 

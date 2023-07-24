@@ -1,17 +1,9 @@
 ---
-title: A thing I made 4
-description: Produced a thing for a company using special tech and data
-image: ./author1/portfolio/Post4/image.png
+title: Social Media Risks in Nursing
+description: Created a scenario-based learning experience for a mock nursing diploma course.
+image: ./author1/portfolio/Post4/main.png
 ---
 
 # A thing I made 4
 
-![](./author1/portfolio/Post4/image.png)
-
-## text blahblah
-### small text
-#### even smaller text 
-- text
-- text2
-- [ ] some text
-[x] some text
+![](./author1/portfolio/Post4/main.png)

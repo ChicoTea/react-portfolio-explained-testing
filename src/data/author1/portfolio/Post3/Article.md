@@ -1,6 +1,6 @@
 ---
-title: A thing I made 3
-description: Produced a thing for a company using special tech and data
+title: Hypnobirthing Course
+description: Created a prototype of a hypnobirthing course using Canvas LMS.
 image: ./author1/portfolio/Post3/main.jpg
 ---
 
