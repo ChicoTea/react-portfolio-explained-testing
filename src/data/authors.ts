@@ -1,66 +1,6 @@
+import { ArticleDocument } from './ArticleDocument';
+import { Author } from './Author';
 import * as author1PortfolioArticles from './author1/portfolio/index';
-
-export interface ArticleDocument {
-  // "unknown" would be more detailed depends on how you structure frontmatter
-  attributes: {
-    title: string;
-    description: string;
-    image: string;
-  };
-
-  // When "Mode.TOC" is requested
-  toc: { level: string; content: string }[];
-
-  // When "Mode.HTML" is requested
-  html: string;
-
-  // When "Mode.RAW" is requested
-  raw: string;
-
-  // When "Mode.React" is requested. VFC could take a generic like React.VFC<{ MyComponent: TypeOfMyComponent }>
-
-  ReactComponent: React.VFC;
-}
-
-export interface Author {
-  palette: {
-    primary: string;
-    secondary: string;
-    mode: 'light' | 'dark';
-  };
-  name: {
-    first: string;
-    last: string;
-    title: string;
-  };
-  biography: string;
-  email: string;
-  workHistory?: {
-    date?: { to: Date; from: Date };
-    title: string;
-    subTitle: string;
-    description: string;
-  }[];
-
-  educationExperience?: {
-    date?: { to: Date; from: Date };
-    title: string;
-    subTitle: string;
-    description: string;
-  }[];
-
-  proficiencies: {}[];
-
-  portfolioArticles?: {
-    id: 'author1';
-    articles?: Record<string, ArticleDocument>;
-  };
-
-  blog?: {
-    id: 'author1';
-    articles?: Record<string, ArticleDocument>;
-  };
-}
 
 const author1 = {
   palette: {
@@ -82,12 +22,11 @@ const author1 = {
       ArticleDocument
     >,
   },
-  proficiencies: [],
   workHistory: [
     {
       date: {
-        from: new Date('2023-06-01'),
-        to: new Date (),
+        from: new Date('2019-01-01'),
+        to: 'Now'
       },
       description:
         'Liaising with clients to review, edit and proof storyboards, and build courses using Articulate Rise.',

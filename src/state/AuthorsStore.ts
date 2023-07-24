@@ -1,5 +1,6 @@
 import { makeAutoObservable } from 'mobx';
-import { Author, authorsStaticData } from '../data/authors';
+import { authorsStaticData } from '../data/authors';
+import { Author } from '../data/Author';
 import { RootStore } from './RootStore';
 import { createTheme } from '@mui/material';
 import { defaultMuiThemeOptions } from './theme';
@@ -22,10 +23,11 @@ export class AuthorsStore {
   }
 
   loadAuthors = async () => {
+    // Do some fake loading which we can fill out later with a real API call
     this.setIsLoadingAuthors(true);
 
     // Fake loading time
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    // await new Promise((resolve) => setTimeout(resolve, 1000));
 
     this.setIsLoadingAuthors(false);
 
