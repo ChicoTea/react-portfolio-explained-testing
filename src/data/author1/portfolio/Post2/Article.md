@@ -1,6 +1,6 @@
 ---
-title: A thing I made 2
-description: Produced a thing for a company using special tech and data
+title: Assessment Task for Counselling Students
+description: Designed an authentic, situated assessment and criteria for a mock scenario.
 image: ./author1/portfolio/Post2/main.jpg
 ---
 

@@ -4,17 +4,17 @@ import * as author1PortfolioArticles from './author1/portfolio/index';
 
 const author1 = {
   palette: {
-    primary: '#3f51a5',
+    primary: '#00FFFF',
     secondary: '#f50057',
     mode: 'dark',
   },
   name: {
-    first: 'John',
-    last: 'Doe',
-    title: 'Software Developer',
+    first: 'Katherine',
+    last: 'Chicoteau',
+    title: 'Passionate about the future of learning',
   },
   biography: '',
-  email: 'johndoedoe@someemail.com',
+  email: 'k.chicoteau.id@gmail.com',
   portfolioArticles: {
     id: 'author1',
     articles: author1PortfolioArticles as any as Record<
@@ -26,85 +26,48 @@ const author1 = {
     {
       date: {
         from: new Date('2019-01-01'),
-        to: 'Now',
+        to: 'Now'
       },
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nisl nisl si',
-      title: 'Software Engineer',
-      subTitle: 'Some Company',
+        'Liaising with clients to review, edit and proof storyboards, and build courses using Articulate Rise.',
+      title: 'eLearning Developer',
+      subTitle: 'InfinEd',
     },
     {
       date: {
-        from: new Date('2018-01-01'),
-        to: new Date('2019-01-01'),
+        from: new Date('2020-01-01'),
+        to: new Date('2022-01-01'),
       },
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nisl nisl si',
-      title: 'Junior Software Engineer',
-      subTitle: 'Different Company',
-    },
-    {
-      date: {
-        from: new Date('2017-01-01'),
-        to: new Date('2018-01-01'),
-      },
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nisl nisl si',
-      title: 'Intern',
-      subTitle: 'Another Company',
+        'Designed, developed, and delivered online and in-person learning experiences in a collaborative leadership team.',
+      title: 'Unit Leader',
+      subTitle: 'Girl Guides',
     },
   ],
   educationExperience: [
     {
-      title: 'McDonalds University',
-      subTitle: 'Burger Flipping Triggernometry',
+      title: 'Graduate Certificate in Education (Innovative Learning Design)',
+      subTitle: 'Queensland University of Technology',
       description:
-        'Experience developed within the fast food industry. Learned how to flip burgers, make fries, and make milkshakes.',
+        'Researched, designed, and developed digital learning content for a range of audiences and topics, underpinned by theories of design and adult learning.',
       date: {
-        from: new Date('2015-02-01'),
-        to: new Date('2016-08-01'),
+        from: new Date('2021-01-01'),
+        to: new Date('2022-06-01'),
       },
     },
     {
-      title: 'ChatGPT University',
-      subTitle: 'Chatbot Theory',
+      title: 'Bachelor of Educational Studies',
+      subTitle: 'Australian Catholic University',
       description:
-        'Went deep into the theory of chatbots. Implemented ChatGPT scenarios; a chatbot that can order food, book a hotel, book a flight, and book a car.',
+        'Designed and implemented learning experiences for children and adolescents aligned with the Australian Curriculum.',
+        date: {
+          from: new Date('2014-01-01'),
+          to: new Date('2019-12-01'),
+        },
     },
   ],
 } satisfies Author;
 
-const author2 = {
-  palette: {
-    primary: '#ff07f0',
-    secondary: '#f50057',
-    mode: 'dark',
-  },
-  name: {
-    first: 'Jane',
-    last: 'Doe',
-    title: 'Instructional Designer',
-  },
-  biography: '',
-  email: 'janedoedoe@someemail.com',
-  proficiencies: [],
-  portfolioArticles: {
-    id: 'author1',
-    // re-using articles for show
-    articles: {},
-  },
-  workHistory: [
-    {
-      date: {
-        from: new Date('2019-01-01'),
-        to: new Date('2020-01-01'),
-      },
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nisl nisl si',
-      title: 'Instructional Designer',
-      subTitle: 'Some Company',
-    },
-  ],
-} satisfies Author;
 
-export const authorsStaticData = [author1, author2];
+
+export const authorsStaticData = [author1];
